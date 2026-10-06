@@ -1,0 +1,629 @@
+<!doctype html>
+<html lang="fr" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Manoztralia — Pars en Australie l'esprit léger · Concept de refonte</title>
+<meta name="description" content="Concept de refonte du site Manoztralia, l'agence d'éducation française 100 % Australie : cours d'anglais, logement, visa. Maquette de proposition, non officielle.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0A1B2E">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Manoztralia — Concept de refonte">
+<meta property="og:description" content="Pars en Australie l'esprit léger. Proposition de refonte : motion design, storytelling et parcours repensé.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1590716209211-ea74d5f63573?auto=format&fit=crop&q=80&w=1200&h=630">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://images.unsplash.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Caveat:wght@500;700&family=DM+Mono:wght@400;500&family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="preload" as="image" imagesrcset="https://images.unsplash.com/photo-1590716209211-ea74d5f63573?auto=format&fit=crop&q=72&w=800 800w, https://images.unsplash.com/photo-1590716209211-ea74d5f63573?auto=format&fit=crop&q=72&w=1200 1200w, https://images.unsplash.com/photo-1590716209211-ea74d5f63573?auto=format&fit=crop&q=72&w=1800 1800w" imagesizes="(max-aspect-ratio: 3/4) 81vh, 108vw">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>document.documentElement.className = 'js';</script>
+</head>
+<body>
+
+<!-- ============ LOADER ============ -->
+<div class="loader" aria-hidden="true">
+  <div class="loader__top">
+    <span>Manoztralia Air</span>
+    <span>Vol MZ 2026</span>
+  </div>
+  <div class="loader__route">
+    <span class="loader__code">PAR</span>
+    <span class="loader__line">
+      <i class="loader__fill"></i>
+      <svg class="loader__plane" viewBox="0 0 24 24"><path d="M22 12c0 .8-1 1.3-2.5 1.3h-5L9.5 21h-2l2.5-7.7H5.5l-1.7 2.3H2.3l.9-3.6-.9-3.6h1.5l1.7 2.3H10L7.5 3h2l5 7.7h5c1.5 0 2.5.5 2.5 1.3z"/></svg>
+    </span>
+    <span class="loader__code">SYD</span>
+  </div>
+  <div class="loader__bottom">
+    <span class="loader__status">Embarquement</span>
+    <span class="loader__pct"><b>0</b><i>%</i></span>
+  </div>
+</div>
+
+<div class="cursor" aria-hidden="true"><span class="cursor__dot"></span><span class="cursor__label"></span></div>
+<div class="grain" aria-hidden="true"></div>
+<div class="progress" aria-hidden="true"><span class="progress__bar"></span></div>
+
+<!-- ============ NAV ============ -->
+<header class="nav">
+  <a class="nav__logo" href="#top" aria-label="Manoztralia — retour en haut">
+    <img src="https://www.manoztralia.fr/wp-content/uploads/2023/11/Logo-Manoztralia.webp" alt="Manoztralia" width="64" height="68">
+  </a>
+  <nav class="nav__links" aria-label="Navigation principale">
+    <a href="#manon">Manon</a>
+    <a href="#visas">Visas</a>
+    <a href="#programmes">Programmes</a>
+    <a href="#destinations">Destinations</a>
+    <a href="#avis">Avis</a>
+    <a href="#blog">Blog</a>
+  </nav>
+  <div class="nav__right">
+    <a class="btn btn--sun btn--sm" href="https://www.manoztralia.fr/demande-de-devis-sejour-linguistique/" target="_blank" rel="noopener" data-magnetic>
+      <span class="btn__label">Devis gratuit</span>
+      <span class="btn__icon"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+    </a>
+    <button class="nav__burger" aria-label="Ouvrir le menu" aria-expanded="false"><i></i><i></i></button>
+  </div>
+</header>
+
+<div class="menu" aria-hidden="true">
+  <nav class="menu__links">
+    <a href="#manon"><small>01</small>Manon</a>
+    <a href="#visas"><small>02</small>Visas</a>
+    <a href="#programmes"><small>03</small>Programmes</a>
+    <a href="#destinations"><small>04</small>Destinations</a>
+    <a href="#avis"><small>05</small>Avis</a>
+    <a href="#blog"><small>06</small>Blog</a>
+  </nav>
+  <div class="menu__foot">
+    <a href="https://www.calendly.com/manoztralia/" target="_blank" rel="noopener">Réserver un appel gratuit ↗</a>
+    <a href="mailto:info@manoztralia.com">info@manoztralia.com</a>
+  </div>
+</div>
+
+<main id="top">
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero__pin">
+    <div class="hero__glow" aria-hidden="true"></div>
+
+    <div class="hero__a">
+      <p class="hero__eyebrow"><span class="dot"></span>Agence d'éducation française · 100&nbsp;% Australie · depuis 2019</p>
+      <h1 class="hero__title" aria-label="Pars en Australie, l'esprit léger.">
+        <span class="line">Pars en</span>
+        <span class="line">Australie,</span>
+        <span class="line"><em>l'esprit <span class="u">léger.<svg class="scribble" viewBox="0 0 300 24" preserveAspectRatio="none" aria-hidden="true"><path d="M4 15C52 5 118 4 168 11s92 8 128-5"/></svg></span></em></span>
+      </h1>
+      <div class="hero__foot">
+        <p class="hero__lead">École d'anglais, logement, visa, assurance&nbsp;: je m'occupe de tout pour que ton séjour linguistique devienne la plus belle aventure de ta vie.</p>
+        <div class="hero__cta">
+          <a class="btn btn--ink" href="https://www.calendly.com/manoztralia/" target="_blank" rel="noopener" data-magnetic>
+            <span class="btn__label">Réserve ton appel gratuit</span>
+            <span class="btn__icon"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          </a>
+          <a class="link" href="https://www.manoztralia.fr/demande-de-devis-sejour-linguistique/" target="_blank" rel="noopener">Calcule ton devis en 2&nbsp;min</a>
+        </div>
+      </div>
+      <ul class="hero__trust">
+        <li><b>5,0</b><span><i class="stars" aria-hidden="true">★★★★★</i>125 avis Google</span></li>
+        <li><b>+350</b><span>séjours<br>organisés</span></li>
+        <li><b>QEAC</b><span>agent d'éducation<br>certifiée</span></li>
+      </ul>
+    </div>
+
+    <!-- full-bleed image clipped to the plane window, expands on scroll -->
+    <div class="hero__stage" aria-hidden="true">
+      <div class="hero__mover"><div class="hero__drift">
+        <img class="hero__img" src="https://images.unsplash.com/photo-1590716209211-ea74d5f63573?auto=format&fit=crop&q=72&w=1800" srcset="https://images.unsplash.com/photo-1590716209211-ea74d5f63573?auto=format&fit=crop&q=72&w=800 800w, https://images.unsplash.com/photo-1590716209211-ea74d5f63573?auto=format&fit=crop&q=72&w=1200 1200w, https://images.unsplash.com/photo-1590716209211-ea74d5f63573?auto=format&fit=crop&q=72&w=1800 1800w" sizes="(max-aspect-ratio: 3/4) 81vh, 108vw" alt="" fetchpriority="high">
+      </div></div>
+      <div class="hero__veil"></div>
+    </div>
+    <div class="hero__ring" aria-hidden="true">
+      <div class="hero__shade"><i></i></div>
+    </div>
+    <div class="hero__slot" aria-hidden="true"></div>
+    <span class="hero__seat" aria-hidden="true">Siège 12A — côté hublot</span>
+
+    <a class="badge" href="https://www.calendly.com/manoztralia/" target="_blank" rel="noopener" aria-label="Réserver un appel découverte gratuit" data-magnetic data-cursor="Go">
+      <svg class="badge__ring" viewBox="0 0 200 200" aria-hidden="true">
+        <defs><path id="badge-circ" d="M100,100 m-76,0 a76,76 0 1,1 152,0 a76,76 0 1,1 -152,0"/></defs>
+        <text><textPath href="#badge-circ" textLength="470">APPEL DÉCOUVERTE GRATUIT ✦ RÉSERVE TON CRÉNEAU ✦</textPath></text>
+      </svg>
+      <span class="badge__core"><svg viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"/></svg></span>
+    </a>
+
+    <div class="hero__b">
+      <p class="hero__b-eyebrow">16&nbsp;960&nbsp;km plus loin</p>
+      <h2 class="hero__b-title" aria-label="On s'occupe de tout."><span class="line">On s'occupe</span><span class="line">de <em>tout.</em></span></h2>
+      <ul class="hero__chips">
+        <li>École d'anglais</li><li>Logement</li><li>Visa</li><li>Assurance</li><li>Billet d'avion</li><li>CV australien</li>
+      </ul>
+    </div>
+
+    <div class="hero__scroll" aria-hidden="true"><span>Scroll pour décoller</span><i></i></div>
+  </div>
+</section>
+
+<!-- ============ BAND ============ -->
+<div class="band" aria-hidden="true">
+  <div class="marquee" data-marquee data-speed="90">
+    <div class="marquee__track"><div class="marquee__group">
+      <span>Working Holiday Visa</span><i>✺</i><span>Visa étudiant</span><i>✺</i><span>Cours d'anglais</span><i>✺</i><span>Famille d'accueil</span><i>✺</i><span>Résidence étudiante</span><i>✺</i><span>Université</span><i>✺</i><span>Formation pro</span><i>✺</i>
+    </div></div>
+  </div>
+</div>
+
+<!-- ============ MANIFESTO ============ -->
+<section class="manifesto" id="concept">
+  <p class="label"><span>(01)</span>Le concept</p>
+  <p class="manifesto__text" data-scrub-words>
+    Tu vois Skyscanner pour les vols&nbsp;? Je fais pareil, mais pour les <span class="pill-img nosplit"><img src="https://images.unsplash.com/photo-1546268060-2592ff93ee24?auto=format&fit=crop&q=70&w=400" alt="" loading="lazy"></span> séjours linguistiques en Australie. Écoles d'anglais, universités, résidences étudiantes, <span class="pill-img nosplit"><img src="https://images.unsplash.com/photo-1511988617509-a57c8a288659?auto=format&fit=crop&q=70&w=400" alt="" loading="lazy"></span> familles d'accueil&nbsp;: je compare tout, et je te trouve le programme qui te ressemble <span class="pill-img nosplit"><img src="https://images.unsplash.com/photo-1717293520366-dc1b531fee5b?auto=format&fit=crop&q=70&w=400" alt="" loading="lazy"></span>.
+  </p>
+  <div class="manifesto__aside">
+    <p data-reveal="fade">La seule agence d'éducation française spécialisée sur l'Australie. Pas de catalogue mondial, pas de plateforme impersonnelle&nbsp;: une experte, un pays, ton projet.</p>
+  </div>
+
+  <ul class="stats">
+    <li class="stat" data-reveal="stat"><p class="stat__num"><i>+</i><span data-count="6">6</span></p><p class="stat__label">ans d'expérience</p></li>
+    <li class="stat" data-reveal="stat"><p class="stat__num"><i>+</i><span data-count="350">350</span></p><p class="stat__label">séjours organisés</p></li>
+    <li class="stat" data-reveal="stat"><p class="stat__num"><span data-count="100">100</span><i>%</i></p><p class="stat__label">de clients satisfaits</p></li>
+    <li class="stat" data-reveal="stat"><p class="stat__num"><span data-count="5" data-decimals="1">5,0</span><i>★</i></p><p class="stat__label">sur 125 avis Google</p></li>
+  </ul>
+</section>
+
+<!-- ============ MANON ============ -->
+<section class="manon" id="manon">
+  <div class="manon__grid">
+    <div class="manon__visual">
+      <div class="manon__sticky">
+        <div class="manon__photo">
+          <img src="https://www.manoztralia.fr/wp-content/uploads/2023/10/Manon-MADI-1.webp" alt="Manon Madi, fondatrice de Manoztralia" loading="lazy">
+        </div>
+        <p class="hand manon__note" data-float="-40">Hello, moi c'est Manon&nbsp;!
+          <svg viewBox="0 0 90 60" aria-hidden="true"><path d="M6 8c22 2 52 14 70 40M76 48l-3-15M76 48l-15-2"/></svg>
+        </p>
+        <span class="sticker sticker--1" data-float="60">3 ans en Australie</span>
+        <span class="sticker sticker--2" data-float="-70">Devenue bilingue</span>
+        <span class="sticker sticker--3" data-float="90">Certifiée QEAC</span>
+      </div>
+    </div>
+
+    <div class="manon__story">
+      <p class="label label--light"><span>(02)</span>Qui suis-je&nbsp;?</p>
+      <h2 class="h2" data-reveal="words">Partie pour quelques mois. <em>Restée trois ans.</em></h2>
+      <p class="manon__intro" data-reveal="fade">Je m'appelle Manon Madi. Mon métier&nbsp;? Te trouver la meilleure école d'anglais en Australie — et le meilleur logement — puis t'accompagner dans chaque démarche, que tu partes en PVT ou avec un visa étudiant.</p>
+
+      <ol class="tl">
+        <li class="tl__line" aria-hidden="true" role="presentation"><span></span></li>
+        <li class="tl__item">
+          <span class="tl__year">2015</span>
+          <h3>Le grand saut</h3>
+          <p>J'ai 22&nbsp;ans, un bac&nbsp;+3 et aucune idée de ce que je veux faire. Je pars avec un Working Holiday Visa et je commence par des cours d'anglais à Sydney. J'ai A-DO-RÉ.</p>
+        </li>
+        <li class="tl__item">
+          <span class="tl__year">2015 → 2018</span>
+          <h3>Trois années, une autre vie</h3>
+          <p>Les quelques mois deviennent trois merveilleuses années. Je travaille dans plein de domaines, je me fais des amis dans le monde entier et, surtout, je deviens bilingue.</p>
+        </li>
+        <li class="tl__item">
+          <span class="tl__year">2019</span>
+          <h3>Naissance de Manoztralia</h3>
+          <p>Formée dans une grande agence d'éducation à Sydney, je crée la mienne&nbsp;: la seule agence française entièrement dédiée à l'Australie.</p>
+        </li>
+        <li class="tl__item">
+          <span class="tl__year">Aujourd'hui</span>
+          <h3>+350 aventures plus tard</h3>
+          <p>Ma certification australienne d'agent d'éducation me permet de t'inscrire dans toutes les écoles et universités que je représente. Et j'y retourne régulièrement pour choisir les meilleurs partenaires.</p>
+        </li>
+      </ol>
+
+      <blockquote class="manon__quote" data-reveal="words">«&nbsp;Cette aventure a changé ma vie. Alors, pourquoi pas <em>la tienne&nbsp;?</em>&nbsp;»</blockquote>
+      <a class="btn btn--sun" href="https://www.calendly.com/manoztralia/" target="_blank" rel="noopener" data-magnetic data-reveal="fade">
+        <span class="btn__label">On s'appelle&nbsp;? C'est gratuit</span>
+        <span class="btn__icon"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VISAS ============ -->
+<section class="visas" id="visas">
+  <header class="sec-head">
+    <p class="label"><span>(03)</span>Ton visa</p>
+    <h2 class="h2" data-reveal="words">Deux visas, deux façons de <em>vivre l'Australie.</em></h2>
+  </header>
+
+  <div class="tickets">
+    <div class="ticket-wrap ticket-wrap--l">
+      <article class="ticket ticket--sun" data-tilt>
+        <div class="ticket__main">
+          <div class="ticket__head"><span>Manoztralia Air</span><span>Boarding pass</span></div>
+          <p class="ticket__route"><b>PAR</b><i></i><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 12c0 .8-1 1.3-2.5 1.3h-5L9.5 21h-2l2.5-7.7H5.5l-1.7 2.3H2.3l.9-3.6-.9-3.6h1.5l1.7 2.3H10L7.5 3h2l5 7.7h5c1.5 0 2.5.5 2.5 1.3z"/></svg><i></i><b>SYD</b></p>
+          <h3 class="ticket__title">Working Holiday Visa</h3>
+          <p class="ticket__desc">Tu as entre 18 et 35&nbsp;ans&nbsp;? Travaille, voyage et booste ton anglais dès ton arrivée, sans statut d'étudiant international.</p>
+          <dl class="ticket__facts">
+            <div><dt>Âge</dt><dd>18 – 35 ans</dd></div>
+            <div><dt>Cours d'anglais</dt><dd>jusqu'à 4 mois</dd></div>
+            <div><dt>Travail</dt><dd>temps plein</dd></div>
+            <div><dt>Logement</dt><dd>famille ou résidence</dd></div>
+          </dl>
+          <a class="ticket__cta" href="https://www.manoztralia.fr/programmes-danglais/" target="_blank" rel="noopener">Brochure WHV gratuite <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+        <div class="ticket__stub">
+          <span class="ticket__k">Subclass</span>
+          <span class="ticket__num">417</span>
+          <span class="ticket__k">Aussi appelé</span>
+          <span class="ticket__v">PVT</span>
+          <i class="barcode" aria-hidden="true"></i>
+        </div>
+      </article>
+    </div>
+
+    <div class="ticket-wrap ticket-wrap--r">
+      <article class="ticket ticket--ink" data-tilt>
+        <div class="ticket__main">
+          <div class="ticket__head"><span>Manoztralia Air</span><span>Boarding pass</span></div>
+          <p class="ticket__route"><b>PAR</b><i></i><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 12c0 .8-1 1.3-2.5 1.3h-5L9.5 21h-2l2.5-7.7H5.5l-1.7 2.3H2.3l.9-3.6-.9-3.6h1.5l1.7 2.3H10L7.5 3h2l5 7.7h5c1.5 0 2.5.5 2.5 1.3z"/></svg><i></i><b>SYD</b></p>
+          <h3 class="ticket__title">Visa étudiant</h3>
+          <p class="ticket__desc">Anglais longue durée, formation professionnelle ou université&nbsp;: étudie et travaille en même temps, sans limite d'âge.</p>
+          <dl class="ticket__facts">
+            <div><dt>Âge</dt><dd>sans limite</dd></div>
+            <div><dt>Études</dt><dd>anglais, VET, Bachelor, Master</dd></div>
+            <div><dt>Travail</dt><dd>48&nbsp;h / quinzaine</dd></div>
+            <div><dt>Famille</dt><dd>conjoint·e &amp; enfants</dd></div>
+          </dl>
+          <a class="ticket__cta" href="https://www.manoztralia.fr/visa-etudiant-en-australie/" target="_blank" rel="noopener">Brochure étudiant gratuite <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+        <div class="ticket__stub">
+          <span class="ticket__k">Subclass</span>
+          <span class="ticket__num">500</span>
+          <span class="ticket__k">Statut</span>
+          <span class="ticket__v">Étudiant·e</span>
+          <i class="barcode" aria-hidden="true"></i>
+        </div>
+      </article>
+    </div>
+
+    <div class="stamp" aria-hidden="true">
+      <svg viewBox="0 0 200 200">
+        <defs><path id="stamp-circ" d="M100,100 m-70,0 a70,70 0 1,1 140,0 a70,70 0 1,1 -140,0"/></defs>
+        <circle cx="100" cy="100" r="94"/><circle cx="100" cy="100" r="86" stroke-dasharray="3 5"/><circle cx="100" cy="100" r="54"/>
+        <text class="stamp__ring"><textPath href="#stamp-circ" textLength="430">MANOZTRALIA ★ AUSTRALIA ★ DEPUIS 2019 ★</textPath></text>
+        <text class="stamp__mid" x="100" y="96" text-anchor="middle">VISA</text>
+        <text class="stamp__mid stamp__mid--s" x="100" y="118" text-anchor="middle">GRANTED</text>
+      </svg>
+    </div>
+  </div>
+
+  <p class="visas__foot" data-reveal="fade"><span class="hand">Pas sûr·e de ton choix&nbsp;?</span> On fait le point ensemble pendant ton appel gratuit — tu n'es pas seul·e.</p>
+</section>
+
+<!-- ============ PROGRAMMES ============ -->
+<section class="progs" id="programmes">
+  <header class="sec-head sec-head--split">
+    <div>
+      <p class="label label--light"><span>(04)</span>Les programmes</p>
+      <h2 class="h2" data-reveal="words">8 programmes d'anglais, <em>100&nbsp;% modulables.</em></h2>
+    </div>
+    <p class="sec-head__side" data-reveal="fade">Dates, durée, rythme, logement, transfert aéroport&nbsp;: tout se personnalise. Minimum 4&nbsp;semaines — 12&nbsp;conseillées pour un vrai déclic.</p>
+  </header>
+
+  <ul class="plist">
+    <li><a class="prow" href="https://www.manoztralia.fr/programmes-danglais/" target="_blank" rel="noopener" data-img="https://images.unsplash.com/photo-1511988617509-a57c8a288659?auto=format&fit=crop&q=75&w=800"><span class="prow__n">01</span><span class="prow__t">General English</span><span class="prow__d">Le grand classique pour progresser vite, quel que soit ton niveau.</span><span class="prow__a"><svg viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"/></svg></span></a></li>
+    <li><a class="prow" href="https://www.manoztralia.fr/programmes-danglais/" target="_blank" rel="noopener" data-img="https://images.unsplash.com/photo-1635621265002-eb95cd6365ae?auto=format&fit=crop&q=75&w=800"><span class="prow__n">02</span><span class="prow__t">Anglais + Volontariat baleines</span><span class="prow__d">Apprends l'anglais en participant à la protection des baleines.</span><span class="prow__a"><svg viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"/></svg></span></a></li>
+    <li><a class="prow" href="https://www.manoztralia.fr/programmes-danglais/" target="_blank" rel="noopener" data-img="https://www.manoztralia.fr/wp-content/uploads/2023/11/etudiants.webp"><span class="prow__n">03</span><span class="prow__t">Anglais académique · IELTS</span><span class="prow__d">Prépare l'IELTS ou ton entrée dans l'enseignement supérieur.</span><span class="prow__a"><svg viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"/></svg></span></a></li>
+    <li><a class="prow" href="https://www.manoztralia.fr/programmes-danglais/" target="_blank" rel="noopener" data-img="https://images.unsplash.com/photo-1536010305525-f7aa0834e2c7?auto=format&fit=crop&q=75&w=800"><span class="prow__n">04</span><span class="prow__t">English + Demi Pair</span><span class="prow__d">Des cours d'anglais et la vie dans une famille australienne.</span><span class="prow__a"><svg viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"/></svg></span></a></li>
+    <li><a class="prow" href="https://www.manoztralia.fr/programmes-danglais/" target="_blank" rel="noopener" data-img="https://images.unsplash.com/photo-1545044846-351ba102b6d5?auto=format&fit=crop&q=75&w=800"><span class="prow__n">05</span><span class="prow__t">University Pathway</span><span class="prow__d">La passerelle vers une université australienne.</span><span class="prow__a"><svg viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"/></svg></span></a></li>
+    <li><a class="prow" href="https://www.manoztralia.fr/programmes-danglais/" target="_blank" rel="noopener" data-img="https://images.unsplash.com/photo-1548661625-a30d197ce439?auto=format&fit=crop&q=75&w=800"><span class="prow__n">06</span><span class="prow__t">English + Business</span><span class="prow__d">L'anglais professionnel pour donner un coup d'accélérateur à ta carrière.</span><span class="prow__a"><svg viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"/></svg></span></a></li>
+    <li><a class="prow" href="https://www.manoztralia.fr/programmes-danglais/" target="_blank" rel="noopener" data-img="https://images.unsplash.com/photo-1585217514204-d025f2f1b116?auto=format&fit=crop&q=75&w=800"><span class="prow__n">07</span><span class="prow__t">Creative &amp; Cultural English</span><span class="prow__d">Progresse par la culture, la création et la vie locale.</span><span class="prow__a"><svg viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"/></svg></span></a></li>
+    <li><a class="prow" href="https://www.manoztralia.fr/programmes-danglais/" target="_blank" rel="noopener" data-img="https://www.manoztralia.fr/wp-content/uploads/2023/10/amis-plage-australie.webp"><span class="prow__n">08</span><span class="prow__t">Séjours linguistiques ados</span><span class="prow__d">Une première grande aventure, bien encadrée.</span><span class="prow__a"><svg viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"/></svg></span></a></li>
+  </ul>
+  <div class="pfloat" aria-hidden="true"><div class="pfloat__in"></div></div>
+</section>
+
+<!-- ============ DESTINATIONS ============ -->
+<section class="dest" id="destinations">
+  <div class="dest__pin">
+    <header class="dest__head">
+      <div>
+        <p class="label"><span>(05)</span>Les destinations</p>
+        <h2 class="h2" data-reveal="words">Choisis ton <em>camp de base.</em></h2>
+      </div>
+      <div class="dest__map">
+        <svg class="ozmap" viewBox="0 0 440 400" aria-hidden="true"></svg>
+        <p class="dest__now"><span class="dest__idx">01</span><span class="dest__sep">/ 08</span><b class="dest__city">Sydney</b></p>
+      </div>
+    </header>
+
+    <div class="dest__viewport">
+      <ul class="dest__track">
+        <li class="city" data-city="sydney" data-lon="151.21" data-lat="-33.87">
+          <div class="city__img"><img src="https://images.unsplash.com/photo-1624138784614-87fd1b6528f8?auto=format&fit=crop&q=75&w=1100" alt="Sydney, l'opéra et le Harbour Bridge" loading="lazy"></div>
+          <span class="city__coord">33.87° S · 151.21° E</span>
+          <div class="city__txt"><span class="city__n">01</span><h3>Sydney</h3><p>L'iconique. Opéra, plages mythiques et vie à cent à l'heure.</p></div>
+        </li>
+        <li class="city" data-city="melbourne" data-lon="144.96" data-lat="-37.81">
+          <div class="city__img"><img src="https://images.unsplash.com/photo-1514395462725-fb4566210144?auto=format&fit=crop&q=75&w=1100" alt="Melbourne, Flinders Street Station" loading="lazy"></div>
+          <span class="city__coord">37.81° S · 144.96° E</span>
+          <div class="city__txt"><span class="city__n">02</span><h3>Melbourne</h3><p>La créative. Cafés cachés, street art et culture à tous les coins de rue.</p></div>
+        </li>
+        <li class="city" data-city="brisbane" data-lon="153.03" data-lat="-27.47">
+          <div class="city__img"><img src="https://images.unsplash.com/photo-1566734904496-9309bb1798ae?auto=format&fit=crop&q=75&w=1100" alt="Brisbane, la skyline au bord de la rivière" loading="lazy"></div>
+          <span class="city__coord">27.47° S · 153.03° E</span>
+          <div class="city__txt"><span class="city__n">03</span><h3>Brisbane</h3><p>La solaire. Une grande ville à taille humaine, les pieds dans la rivière.</p></div>
+        </li>
+        <li class="city" data-city="goldcoast" data-lon="153.40" data-lat="-28.02">
+          <div class="city__img"><img src="https://images.unsplash.com/photo-1591701729564-3b5325d5a4bd?auto=format&fit=crop&q=75&w=1100" alt="Gold Coast vue du ciel" loading="lazy"></div>
+          <span class="city__coord">28.02° S · 153.40° E</span>
+          <div class="city__txt"><span class="city__n">04</span><h3>Gold Coast</h3><p>La surfeuse. Des gratte-ciel plantés directement dans le sable.</p></div>
+        </li>
+        <li class="city" data-city="perth" data-lon="115.86" data-lat="-31.95">
+          <div class="city__img"><img src="https://images.unsplash.com/photo-1524586410818-196d249560e4?auto=format&fit=crop&q=75&w=1100" alt="Perth au crépuscule" loading="lazy"></div>
+          <span class="city__coord">31.95° S · 115.86° E</span>
+          <div class="city__txt"><span class="city__n">05</span><h3>Perth</h3><p>La grande évasion. Côte Ouest et couchers de soleil sur l'océan Indien.</p></div>
+        </li>
+        <li class="city" data-city="byron" data-lon="153.61" data-lat="-28.64">
+          <div class="city__img"><img src="https://images.unsplash.com/photo-1680157689659-749501d3ffa5?auto=format&fit=crop&q=75&w=1100" alt="Byron Bay, surfeurs vus du ciel" loading="lazy"></div>
+          <span class="city__coord">28.64° S · 153.61° E</span>
+          <div class="city__txt"><span class="city__n">06</span><h3>Byron Bay</h3><p>La bohème. Surf, pieds nus et phare au bout du monde.</p></div>
+        </li>
+        <li class="city" data-city="adelaide" data-lon="138.60" data-lat="-34.93">
+          <div class="city__img"><img src="https://images.unsplash.com/photo-1595850344461-dcbec3a62f67?auto=format&fit=crop&q=75&w=1100" alt="Côte près d'Adelaide" loading="lazy"></div>
+          <span class="city__coord">34.93° S · 138.60° E</span>
+          <div class="city__txt"><span class="city__n">07</span><h3>Adelaide</h3><p>La douce. Festivals, vignobles et rythme tranquille.</p></div>
+        </li>
+        <li class="city" data-city="sunshine" data-lon="153.07" data-lat="-26.65">
+          <div class="city__img"><img src="https://images.unsplash.com/photo-1693784070290-fdd85993efea?auto=format&fit=crop&q=75&w=1100" alt="Plage de la Sunshine Coast" loading="lazy"></div>
+          <span class="city__coord">26.65° S · 153.07° E</span>
+          <div class="city__txt"><span class="city__n">08</span><h3>Sunshine Coast</h3><p>La nature. Plages sauvages, forêt et vie au ralenti.</p></div>
+        </li>
+        <li class="city city--end">
+          <p class="hand">Tu hésites&nbsp;?</p>
+          <h3>Le quiz te répond en 30&nbsp;secondes.</h3>
+          <a class="btn btn--ink" href="#quiz" data-magnetic><span class="btn__label">Faire le quiz</span><span class="btn__icon"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+        </li>
+      </ul>
+    </div>
+    <p class="dest__hint" aria-hidden="true"><i></i>Continue de scroller</p>
+  </div>
+</section>
+
+<!-- ============ PROCESS ============ -->
+<section class="flight" id="plan">
+  <header class="sec-head sec-head--center">
+    <p class="label label--light"><span>(06)</span>Le plan de vol</p>
+    <h2 class="h2" data-reveal="words">De ton canapé à l'Australie <em>en 5 étapes.</em></h2>
+  </header>
+
+  <div class="flight__map">
+    <svg class="flight__svg" aria-hidden="true">
+      <defs><mask id="flight-mask" maskUnits="userSpaceOnUse"><path class="flight__reveal" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round"/></mask></defs>
+      <path class="flight__ghost" fill="none"/>
+      <path class="flight__path" fill="none" mask="url(#flight-mask)"/>
+    </svg>
+    <div class="flight__plane" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M22 12c0 .8-1 1.3-2.5 1.3h-5L9.5 21h-2l2.5-7.7H5.5l-1.7 2.3H2.3l.9-3.6-.9-3.6h1.5l1.7 2.3H10L7.5 3h2l5 7.7h5c1.5 0 2.5.5 2.5 1.3z"/></svg></div>
+
+    <ol class="steps">
+      <li class="step"><i class="step__dot"></i><div class="step__card"><span class="step__n">01</span><h3>L'appel découverte</h3><p>Un appel gratuit pour parler de ton projet, de ton budget et de tes envies. Zéro engagement.</p></div></li>
+      <li class="step"><i class="step__dot"></i><div class="step__card"><span class="step__n">02</span><h3>Ton devis sur mesure</h3><p>Je compare écoles, villes et logements, et tu reçois une proposition claire, au meilleur tarif.</p></div></li>
+      <li class="step"><i class="step__dot"></i><div class="step__card"><span class="step__n">03</span><h3>École &amp; logement réservés</h3><p>Inscription, famille d'accueil ou résidence étudiante, transfert aéroport&nbsp;: je m'occupe de tout.</p></div></li>
+      <li class="step"><i class="step__dot"></i><div class="step__card"><span class="step__n">04</span><h3>Visa, assurance, billet</h3><p>WHV ou visa étudiant, assurance santé, vol à tarif négocié&nbsp;: je te guide à chaque démarche.</p></div></li>
+      <li class="step"><i class="step__dot"></i><div class="step__card"><span class="step__n">05</span><h3>Décollage… et après</h3><p>Même une fois sur place, je reste joignable pour tes questions, tes doutes ou juste prendre des nouvelles.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="services" id="services">
+  <header class="sec-head sec-head--split">
+    <div>
+      <p class="label"><span>(07)</span>À la carte</p>
+      <h2 class="h2" data-reveal="words">Juste besoin d'un <em>coup de pouce&nbsp;?</em></h2>
+    </div>
+    <p class="sec-head__side" data-reveal="fade">Même sans cours d'anglais, je t'aide à préparer ton départ. Tu commandes en ligne, je reviens vers toi sous 24&nbsp;h ouvrées.</p>
+  </header>
+
+  <div class="bento">
+    <a class="svc" href="https://www.manoztralia.fr/produit/cv-en-anglais/" target="_blank" rel="noopener" data-cursor="Voir">
+      <span class="svc__ico"><svg viewBox="0 0 48 48"><rect x="10" y="6" width="28" height="36" rx="4"/><circle cx="24" cy="18" r="4.5"/><path d="M16 30h16M16 35h10"/></svg></span>
+      <h3>CV australien</h3>
+      <p>Rédigé et vérifié par un anglophone. Prêt à être envoyé dès ton arrivée.</p>
+      <span class="svc__go">Faire mon CV <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+    </a>
+    <a class="svc" href="https://www.vacancesaustralie.com/?utm_source=manoztralia&utm_medium=cpc&utm_term=manoztralia&utm_content=manoztralia&utm_campaign=manoztralia" target="_blank" rel="noopener" data-cursor="Voir">
+      <span class="svc__ico"><svg viewBox="0 0 48 48"><path d="M43 24c0 1.5-2 2.5-5 2.500H28.500L19 41h-4l5-14.500h-9L7.5 31h-3l1.8-7-1.8-7h3L11 21.500h9L15 7h4l9.5 14.500H38c3 0 5 1 5 2.500z"/></svg></span>
+      <h3>Billet d'avion</h3>
+      <p>Des tarifs négociés pour les étudiants et PVTistes, via mon partenaire.</p>
+      <span class="svc__go">Demander un devis <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+    </a>
+    <a class="svc" href="https://www.manoztralia.fr/produit/traduction-naati-pour-laustralie/" target="_blank" rel="noopener" data-cursor="Voir">
+      <span class="svc__ico"><svg viewBox="0 0 48 48"><path d="M6 10h18M15 6v4M9 10c1 7 6 12 13 14M21 10c-1 7-6 12-13 14M26 42l8-20 8 20M29 35h10"/></svg></span>
+      <h3>Traduction NAATI</h3>
+      <p>Permis, diplômes, documents officiels&nbsp;: traduits par des traductrices assermentées.</p>
+      <span class="svc__go">Traduire mon document <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+    </a>
+    <a class="svc svc--sun" href="https://www.chapkadirect.fr/index.php?action=produit&id=728&app=cd_manoztralia" target="_blank" rel="noopener" data-cursor="Voir">
+      <span class="svc__tag">−5&nbsp;%</span>
+      <span class="svc__ico"><svg viewBox="0 0 48 48"><path d="M24 5l15 6v11c0 10-6.5 17-15 21-8.5-4-15-11-15-21V11z"/><path d="M24 17v12M18 23h12"/></svg></span>
+      <h3>Assurance santé voyage</h3>
+      <p>Le Cap WHV de Chapka à 410&nbsp;€ au lieu de 432&nbsp;€ pour 12&nbsp;mois.</p>
+      <span class="svc__go">En profiter <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+    </a>
+  </div>
+
+  <div class="partners">
+    <p class="partners__label">Ils me font confiance depuis 6&nbsp;ans</p>
+    <div class="marquee marquee--soft" data-marquee data-speed="55" data-dir="-1">
+      <div class="marquee__track"><div class="marquee__group">
+        <span>Vacances Australie</span><i>✺</i><span>Chapka Assurances</span><i>✺</i><span>BoursoBank</span><i>✺</i><span>Wise</span><i>✺</i><span>Allianz Care</span><i>✺</i>
+      </div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ AVIS ============ -->
+<section class="avis" id="avis">
+  <header class="avis__head">
+    <p class="label label--light"><span>(08)</span>Ils sont partis</p>
+    <div class="avis__score">
+      <p class="avis__num" aria-label="5,0 sur 5"><span data-count="5" data-decimals="1">5,0</span></p>
+      <div class="avis__meta">
+        <p class="avis__stars" aria-hidden="true"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></p>
+        <p>125 avis Google.<br><em>Zéro regret.</em></p>
+      </div>
+    </div>
+  </header>
+
+  <div class="marquee marquee--cards" data-marquee data-speed="38" data-pause>
+    <div class="marquee__track"><div class="marquee__group">
+      <figure class="rev"><p class="rev__s">★★★★★</p><blockquote>Grâce à sa réactivité et son professionnalisme, j'ai pu obtenir mon visa étudiant en quelques heures. Franchement, n'hésitez pas, faites-lui confiance&nbsp;!</blockquote><figcaption><i>I</i><span><b>Iléna Demoulin</b>Juin 2026</span></figcaption></figure>
+      <figure class="rev"><p class="rev__s">★★★★★</p><blockquote>Je cherchais une école avec un logement, et elle a su me trouver celle qui me correspondait, avec une famille d'accueil pour être en totale immersion.</blockquote><figcaption><i>K</i><span><b>Kevin Nicolas</b>Mai 2026</span></figcaption></figure>
+      <figure class="rev"><p class="rev__s">★★★★★</p><blockquote>Manon a été la personne qui a rendu le projet de mon fils possible. Très réactive, sympathique et toujours claire dans ses conseils.</blockquote><figcaption><i>A</i><span><b>Aurélie Parola</b>Août 2026</span></figcaption></figure>
+      <figure class="rev"><p class="rev__s">★★★★★</p><blockquote>Ça fait une semaine que je suis arrivée à Perth et tout se passe super bien&nbsp;! La famille d'accueil est vraiment gentille et l'école est top.</blockquote><figcaption><i>C</i><span><b>Camille Gueron</b>Février 2026</span></figcaption></figure>
+      <figure class="rev"><p class="rev__s">★★★★★</p><blockquote>Superbe expérience, en tant que jeune adulte j'ai pu partir sereinement en Australie. Je recommande vivement.</blockquote><figcaption><i>T</i><span><b>Thomas Bernard</b>Septembre 2026</span></figcaption></figure>
+    </div></div>
+  </div>
+  <div class="marquee marquee--cards" data-marquee data-speed="38" data-dir="-1" data-pause>
+    <div class="marquee__track"><div class="marquee__group">
+      <figure class="rev"><p class="rev__s">★★★★★</p><blockquote>Elle a su me conseiller à merveille sur l'école, le choix de résidence et le lieu d'apprentissage. Elle m'a accompagnée de A à Z dans toutes les démarches.</blockquote><figcaption><i>L</i><span><b>Léa Vuillemenot</b>Juillet 2026</span></figcaption></figure>
+      <figure class="rev"><p class="rev__s">★★★★★</p><blockquote>Grâce à son suivi sérieux et son implication, les procédures ont été plus simples et moins stressantes.</blockquote><figcaption><i>A</i><span><b>Amandine Mareux</b>Mai 2026</span></figcaption></figure>
+      <figure class="rev"><p class="rev__s">★★★★★</p><blockquote>Un accompagnement de grande qualité et une disponibilité précieuse et rassurante tout au long de la préparation du voyage.</blockquote><figcaption><i>É</i><span><b>Émilie Bernard</b>Août 2026</span></figcaption></figure>
+      <figure class="rev"><p class="rev__s">★★★★★</p><blockquote>Elle saura vous conseiller, suivre et accompagner dans votre projet en toute confiance. Un tout grand merci&nbsp;!</blockquote><figcaption><i>L</i><span><b>Léa Van Dooren</b>Février 2026</span></figcaption></figure>
+      <figure class="rev"><p class="rev__s">★★★★★</p><blockquote>Après plusieurs semaines de démarches et d'accompagnement, j'ai enfin obtenu mon visa étudiant pour l'Australie, et ça grâce à Manon&nbsp;!</blockquote><figcaption><i>M</i><span><b>Manoune</b>Août 2026</span></figcaption></figure>
+    </div></div>
+  </div>
+
+  <div class="parents" data-reveal="fade">
+    <p class="hand">Un petit mot pour les parents</p>
+    <p class="parents__txt">Je veille personnellement sur chaque détail, de l'organisation du séjour à la sécurité et au bien-être de votre enfant.</p>
+    <a class="link link--light" href="https://www.calendly.com/manoztralia/" target="_blank" rel="noopener">Prendre un rendez-vous téléphonique</a>
+  </div>
+</section>
+
+<!-- ============ BLOG ============ -->
+<section class="blog" id="blog">
+  <header class="sec-head sec-head--split">
+    <div>
+      <p class="label"><span>(09)</span>Le journal de bord</p>
+      <h2 class="h2" data-reveal="words">Les dernières nouvelles <em>d'Australie.</em></h2>
+    </div>
+    <a class="link sec-head__side" href="https://www.manoztralia.fr/blog-pvt-australie/" target="_blank" rel="noopener">Tous les articles</a>
+  </header>
+
+  <div class="posts">
+    <a class="post post--big" href="https://www.manoztralia.fr/budget-federal-australie-2026/" target="_blank" rel="noopener" data-cursor="Lire">
+      <div class="post__img" data-reveal="img"><img src="https://images.unsplash.com/photo-1546268060-2592ff93ee24?auto=format&fit=crop&q=75&w=1400" alt="" loading="lazy"></div>
+      <p class="post__meta"><span>Actu</span><span>Visas &amp; budget</span></p>
+      <h3>Budget fédéral australien 2026–2027&nbsp;: ce qui change</h3>
+    </a>
+    <a class="post" href="https://www.manoztralia.fr/retour-en-france-apres-expatriation/" target="_blank" rel="noopener" data-cursor="Lire">
+      <div class="post__img" data-reveal="img"><img src="https://images.unsplash.com/photo-1528077064587-a9bff356f92a?auto=format&fit=crop&q=75&w=900" alt="" loading="lazy"></div>
+      <p class="post__meta"><span>Conseils</span><span>Après l'Australie</span></p>
+      <h3>Retour en France après expatriation</h3>
+    </a>
+    <a class="post" href="https://www.manoztralia.fr/donnees-biometriques-visa-etudiant-australie/" target="_blank" rel="noopener" data-cursor="Lire">
+      <div class="post__img" data-reveal="img"><img src="https://www.manoztralia.fr/wp-content/uploads/2023/11/etudiants.webp" alt="" loading="lazy"></div>
+      <p class="post__meta"><span>Guide</span><span>Visa étudiant</span></p>
+      <h3>Données biométriques du visa étudiant&nbsp;: le guide complet 2026</h3>
+    </a>
+  </div>
+</section>
+
+<!-- ============ QUIZ ============ -->
+<section class="quiz" id="quiz">
+  <div class="quiz__intro">
+    <p class="label"><span>(10)</span>Le quiz</p>
+    <h2 class="h2" data-reveal="words">Quelle ville est <em>faite pour toi&nbsp;?</em></h2>
+    <p data-reveal="fade">Trois questions, zéro prise de tête. Et à la fin, ton camp de base idéal.</p>
+    <a class="link" href="https://www.manoztralia.fr/quiz-ville-australie/" target="_blank" rel="noopener" data-reveal="fade">Le quiz complet sur le site</a>
+  </div>
+
+  <div class="quiz__card" data-reveal="fade">
+    <div class="quiz__bar"><span></span></div>
+    <div class="quiz__stage" aria-live="polite"></div>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="cta" id="contact">
+  <div class="cta__media">
+    <img src="https://images.unsplash.com/photo-1528077064587-a9bff356f92a?auto=format&fit=crop&q=80&w=2200" alt="" loading="lazy">
+  </div>
+  <div class="cta__in">
+    <p class="hand cta__hand">Prêt·e à embarquer&nbsp;? 🦘</p>
+    <h2 class="cta__title" data-reveal="chars">Ton aventure <em>commence ici.</em></h2>
+    <div class="cta__actions">
+      <a class="btn btn--sun btn--xl" href="https://www.calendly.com/manoztralia/" target="_blank" rel="noopener" data-magnetic>
+        <span class="btn__label">Réserver mon appel gratuit</span>
+        <span class="btn__icon"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+      <a class="btn btn--ghost btn--xl" href="https://www.manoztralia.fr/demande-de-devis-sejour-linguistique/" target="_blank" rel="noopener" data-magnetic>
+        <span class="btn__label">Calculer mon devis</span>
+        <span class="btn__icon"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+    </div>
+    <p class="cta__info">Du lundi au vendredi · 9&nbsp;h – 17&nbsp;h (heure française) · <a href="mailto:info@manoztralia.com">info@manoztralia.com</a></p>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="foot">
+  <div class="foot__top">
+    <div class="foot__brand">
+      <img src="https://www.manoztralia.fr/wp-content/uploads/2023/11/Logo-Manoztralia-Jaune.png" alt="Manoztralia" width="96" height="102" loading="lazy">
+      <p>Ton agence de confiance pour partir étudier en Australie.</p>
+      <p class="foot__cert">Certification australienne<br>d'agent d'éducation (QEAC)</p>
+    </div>
+    <div class="foot__col">
+      <h4>Explorer</h4>
+      <a href="https://www.manoztralia.fr/programmes-danglais/" target="_blank" rel="noopener">Programmes d'anglais</a>
+      <a href="https://www.manoztralia.fr/visa-etudiant-en-australie/" target="_blank" rel="noopener">Visa étudiant</a>
+      <a href="https://www.manoztralia.fr/mes-services/" target="_blank" rel="noopener">Mes services</a>
+      <a href="https://www.manoztralia.fr/a-propos-manon-madi/" target="_blank" rel="noopener">À propos</a>
+      <a href="https://www.manoztralia.fr/blog-pvt-australie/" target="_blank" rel="noopener">Blog</a>
+    </div>
+    <div class="foot__col">
+      <h4>Les quiz</h4>
+      <a href="https://www.manoztralia.fr/quiz-ville-australie/" target="_blank" rel="noopener">Quelle ville est faite pour toi&nbsp;?</a>
+      <a href="https://www.manoztralia.fr/quiz-amoureux-du-voyage/" target="_blank" rel="noopener">Quel type de voyageur es-tu&nbsp;?</a>
+      <a href="https://www.manoztralia.fr/quiz-connais-tu-l-australie/" target="_blank" rel="noopener">Connais-tu l'Australie&nbsp;?</a>
+      <a href="https://www.manoztralia.fr/test-danglais/" target="_blank" rel="noopener">Teste ton anglais</a>
+    </div>
+    <div class="foot__col">
+      <h4>Suivre l'aventure</h4>
+      <a href="https://www.instagram.com/agence_manoztralia/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.youtube.com/@manoztralia/videos" target="_blank" rel="noopener">YouTube</a>
+      <a href="https://www.facebook.com/manoztralia.australia/" target="_blank" rel="noopener">Facebook</a>
+      <a href="https://www.linkedin.com/company/manoztralia/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://pod.link/1802642486" target="_blank" rel="noopener">Podcast</a>
+    </div>
+    <div class="foot__col foot__clocks">
+      <h4>En ce moment</h4>
+      <p><span>France</span><b data-clock="Europe/Paris">--:--</b></p>
+      <p><span>Sydney</span><b data-clock="Australia/Sydney">--:--</b></p>
+      <p><span>Perth</span><b data-clock="Australia/Perth">--:--</b></p>
+    </div>
+  </div>
+
+  <p class="foot__word" aria-hidden="true">Manoztralia</p>
+
+  <div class="foot__bar">
+    <span>© 2021–2026 Manoztralia</span>
+    <span><a href="https://www.manoztralia.fr/cgu/" target="_blank" rel="noopener">CGU</a> · <a href="https://www.manoztralia.fr/termes-et-conditions-generales-de-vente/" target="_blank" rel="noopener">CGV</a></span>
+    <span>Concept de refonte — maquette non officielle</span>
+  </div>
+</footer>
+
+<div class="hud" aria-hidden="true"><span>PAR</span><i><b></b></i><span>SYD</span><em><span class="hud__km">0</span> km</em></div>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.3.4/dist/lenis.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
